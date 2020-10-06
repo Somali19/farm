@@ -1,0 +1,44 @@
+.container {
+  margin: 0 auto;
+  margin-right: auto;
+  margin-left: auto;
+  overflow-x: hidden;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;
+margin-left: 10px;
+margin-right: 10px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card:hover {
+  box-shadow: 0 12px 18px 0 rgba(0,0,0,0.2);
+}
+
+
+.zoom {
+	    display: inline-block; 
+    overflow: hidden;
+}
+
+.zoom img {
+	 display: block; 
+    transition: .3s ease-in-out;
+}
+      
+  .zoom:hover img{
+
+ transform: scale(1.2);
+}
+
+
+
+.card-panel:hover  {
+ box-shadow: 0 12px 18px 0 rgba(0,0,0,0.2);
+}
