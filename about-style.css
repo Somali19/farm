@@ -1,0 +1,36 @@
+
+
+
+
+.cards {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+  
+}
+
+.cards:hover {
+  box-shadow: 0 12px 18px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 14px;
+}
+
+.zoom {
+	    display: inline-block; 
+    overflow: hidden;
+}
+
+.zoom img {
+	 display: block; 
+    transition: .3s ease-in-out;
+}
+      
+  .zoom:hover img{
+
+ transform: scale(1.2);
+}
